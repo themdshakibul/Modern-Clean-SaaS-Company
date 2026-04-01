@@ -6,8 +6,8 @@ const NavBar = () => {
   const [activeMenu, setActiveMenu] = useState(false);
 
   return (
-    <nav className="w-full flex justify-center mt-5">
-      <div className="fixed top-5 z-50 w-11/12 lg:w-10/12 flex items-center justify-between border border-gray-300 bg-white/80 backdrop-blur-md px-6 lg:px-10 py-2 rounded-full shadow-sm">
+    <nav className="w-full flex justify-center">
+      <div className="fixed top-5 z-50 w-11/12 lg:w-10/12 flex items-center justify-between border border-gray-300 bg-transparent backdrop-blur-md px-6 lg:px-10 py-2 rounded-full shadow-sm">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold tracking-tighter">
           Aetherfield
@@ -53,25 +53,50 @@ const NavBar = () => {
 
       {/* Mobile Dropdown Down */}
       {activeMenu && (
-        <div className="fixed top-24 left-4 right-4 bg-white border border-gray-200 rounded-2xl p-6 z-40 md:hidden shadow-xl">
-          <ul className="flex flex-col gap-4 font-semibold text-lg">
-            <li>
-              <Link onClick={() => setActiveMenu(false)} to="/">
+        <div className="fixed inset-0 z-50 md:hidden flex flex-col items-center justify-center bg-linear-to-b from-[#aad3fe] to-[#fdf3e0] animate-fade-in duration-300">
+          {/* Close Button */}
+          <button
+            onClick={() => setActiveMenu(false)}
+            className="absolute top-8 right-8 text-3xl hover:rotate-90 transition-transform duration-300"
+          >
+            ✕
+          </button>
+
+          <ul className="flex flex-col gap-8 font-bold text-3xl text-center">
+            {/* প্রতিটি Link-এ hover এবং fade-in এনিমেশন অ্যাড করা হয়েছে */}
+            <li className="animate-fade-in-up [animation-delay:100ms]">
+              <Link
+                onClick={() => setActiveMenu(false)}
+                to="/"
+                className="hover:text-blue-600 transition-colors duration-200"
+              >
                 Home
               </Link>
             </li>
-            <li>
-              <Link onClick={() => setActiveMenu(false)} to="/journal">
+            <li className="animate-fade-in-up [animation-delay:200ms]">
+              <Link
+                onClick={() => setActiveMenu(false)}
+                to="/journal"
+                className="hover:text-blue-600 transition-colors duration-200"
+              >
                 Journal
               </Link>
             </li>
-            <li>
-              <Link onClick={() => setActiveMenu(false)} to="/about">
+            <li className="animate-fade-in-up [animation-delay:300ms]">
+              <Link
+                onClick={() => setActiveMenu(false)}
+                to="/about"
+                className="hover:text-blue-600 transition-colors duration-200"
+              >
                 About
               </Link>
             </li>
-            <li>
-              <Link onClick={() => setActiveMenu(false)} to="/careers">
+            <li className="animate-fade-in-up [animation-delay:400ms]">
+              <Link
+                onClick={() => setActiveMenu(false)}
+                to="/careers"
+                className="hover:text-blue-600 transition-colors duration-200"
+              >
                 Careers
               </Link>
             </li>

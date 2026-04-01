@@ -6,11 +6,10 @@
   themes: all;
 }
 
-* {
-  font-family: "Radio Canada Big", sans-serif;
-}
-
 @layer utilities {
+  .font-Radio {
+    font-family: "Radio Canada Big", sans-serif;
+  }
   .fonts-Source {
     font-family: "Source Serif 4", serif;
   }
