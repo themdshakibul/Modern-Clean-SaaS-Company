@@ -14,3 +14,8 @@
     font-family: "Source Serif 4", serif;
   }
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
