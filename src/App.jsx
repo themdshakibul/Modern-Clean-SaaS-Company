@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="app-container">
       <NavBar />
-      <Footer />
       <main className="content">
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }
