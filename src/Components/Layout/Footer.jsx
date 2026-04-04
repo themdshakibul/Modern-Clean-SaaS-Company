@@ -56,7 +56,7 @@ const Footer = () => {
       {/* Big Text */}
       <h1
         data-aos="fade-up"
-        className="text-[18vw] md:text-[20vw] font-extrabold text-black/40 px-4 leading-none text-center md:text-left wrap-break-word"
+        className="text-[18vw] md:text-[16vw] font-extrabold text-black/40 px-4 leading-none text-center md:text-left wrap-break-word"
       >
         Aethefield
       </h1>

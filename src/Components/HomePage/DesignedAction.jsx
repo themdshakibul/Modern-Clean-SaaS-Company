@@ -91,7 +91,10 @@ const DesignedAction = () => {
       </section>
 
       <section className="container mx-auto px-2 mb-30">
-        <div className="grid md:grid-cols-2 items-center gap-5 max-w-250 mx-auto bg-base-300 p-6 rounded-lg">
+        <div
+          data-aos="zoom-in-down"
+          className="grid md:grid-cols-2 items-center gap-5 max-w-250 mx-auto bg-base-300 p-6 rounded-lg"
+        >
           <div>
             <img src={WhyImage} alt="" />
           </div>

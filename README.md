@@ -1,16 +1,84 @@
-# React + Vite
+# 🌿 Aetherfield – Sustainability Insights Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aetherfield is a modern web application designed to help businesses **track, measure, and act on sustainability data** with clarity and confidence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Preview
 
-## React Compiler
+👉 Add your live link here  
+👉 Add your GitHub repo link here
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project focuses on building a clean, modern, and minimal UI for a sustainability-focused SaaS platform.
+
+### Key Sections:
+
+- Hero Section with CTA
+- Analytics Dashboard Preview
+- Features (Track, Model, Report, Act)
+- Value Proposition Cards
+- Case Study Section
+- Blog / Journal Section
+- Footer with Navigation
+
+---
+
+## ✨ Features
+
+- 📊 Track emissions, energy, and waste
+- 📈 Data visualization dashboard
+- 🧠 Forecast modeling and insights
+- ⚡ Actionable sustainability steps
+- 📰 Journal/blog integration
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🧩 JavaScript (ES6+)
+- 🎬 AOS (Animation on Scroll)
+- React Router (for navigation)
+-
+- ***
+
+## 📂 Folder Structure
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+https://github.com/themdshakibul/Modern-Clean-SaaS-Company.git
+
+# Navigate to project folder
+cd aetherfield
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+🎯 Purpose
+
+This project was built to:
+
+Practice modern UI/UX design
+Improve React + Tailwind skills
+Create a professional portfolio project
+Demonstrate real-world SaaS layout
+
+Md Shakibul Islam
+💼 MERN Stack Developer
+
+📄 License
+
+This project is open source and available under the MIT License.
